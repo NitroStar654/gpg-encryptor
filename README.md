@@ -1,4 +1,4 @@
-# GPG Encryptor.
+# GPG Encryptor
 
 Welcome to the GPG Encryptor project! This repository contains a command-line interface (CLI) and a graphical user
 interface (GUI) for encrypting files using GPG.
@@ -25,7 +25,7 @@ from [GPG's official site](https://gnupg.org/download/).
 ### Clone the Repository
 
 ```
-git clone https://github.com/yourusername/gpg-encryptor.git
+git clone https://github.com/NitroStar654/gpg-encryptor.git
 cd gpg-encryptor
 ```
 
