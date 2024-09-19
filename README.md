@@ -49,7 +49,10 @@ The CLI allows you to encrypt files directly from the command line.
 python cli.py <input_file> <output_file> <recipient_email>
 ```
 
-Example: ```python cli.py secret.txt secret.txt.gpg recipient@example.com```
+#### Example:
+```
+python cli.py secret.txt secret.txt.gpg recipient@example.com
+```
 
 ### GUI Usage
 
