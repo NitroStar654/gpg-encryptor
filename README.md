@@ -20,7 +20,7 @@ graphical user interface to encrypt your files securely.
 ## Installation
 
 Before you start, ensure that you have GPG installed on your system. You can download it
-from [GPG's official site](https://gnupg.org/download/).
+from [GPG official site](https://gnupg.org/download/).
 
 ### Clone the Repository
 
