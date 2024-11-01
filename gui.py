@@ -41,7 +41,8 @@ def show_message(title, message):
     top.grab_set()  # Make the dialog modal
     top.update_idletasks()
     top.geometry(
-        f"{top.winfo_width()}x{top.winfo_height()}+{int(root.winfo_screenwidth() / 2 - top.winfo_reqwidth() / 2)}+{int(root.winfo_screenheight() / 2 - top.winfo_reqheight() / 2)}")
+        f"{top.winfo_width()}x{top.winfo_height()}+{int(root.winfo_screenwidth() / 2 - top.winfo_reqwidth() / 2)}+{int(
+            root.winfo_screenheight() / 2 - top.winfo_reqheight() / 2)}")
     root.wait_window(top)
 
 
