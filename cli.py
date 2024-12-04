@@ -14,7 +14,7 @@ def main():
     parser = argparse.ArgumentParser(description="Encrypt files using GPG Encryptor")
     parser.add_argument('input_file', help='The file to encrypt')
     parser.add_argument('output_file', help='The output encrypted file')
-    parser.add_argument('email', help='The email containing the key')
+    parser.add_argument('recipient', help='The email containing the key')
     args = parser.parse_args()
     encrypt_file(args.input_file, args.output_file, args.recipient)
 
